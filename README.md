@@ -33,14 +33,12 @@ Note that you don't have to understand **everything** about how this app is work
 - Clone the repo
 - Make a `venv` and activate it
 - Install the dependencies
-  - `pip install pytest`
-  - `pip install flask`
-  - `pip install psycopg`
+  - `pip install -r requirements.txt`
 
 ## Create the databases
 
 - `createdb python_blog_app`
-- - `createdb python_blog_app_test`
+- `createdb python_blog_app_test`
 
 ## Seed the dev database
 
@@ -48,7 +46,7 @@ Note that you don't have to understand **everything** about how this app is work
 
 ## Run the tests
 
-- Run the tests with `pytest`.
+- Run the tests with `pytest -v`.
 
 > Some should fail
 
